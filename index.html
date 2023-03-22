@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/nullstyle.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Дома посуточно</title>
+</head>
+<body>
+<div class="inner">
+	<header class="header">
+		<div class="container">
+			<div class="header__body">
+				<a href="/">
+					<img class="header__image" src="img/house.png" alt="Дом">
+				</a>
+				<ul class="header__list">
+					<li class="header__list-item">
+						<a href="/">Главная</a>
+					</li>
+					<li class="header__list-item">
+						<a href="#form">Забронировать</a>
+					</li>
+				</ul>
+			</div>
+	 </header>
+	 <div class="hero">
+		<div class="house-cards">
+			<div class="container">
+				<div class="house-cards__body">
+					<div class="house-spinner" style="margin: 0 auto;">
+						<img style="width: 40px;" src="https://media.tenor.com/On7kvXhzml4AAAAj/loading-gif.gif" alt="">
+					</div>
+					<!-- <div class="house-card">
+						<img class="house-card__image" src="https://cdn-p.cian.site/images/7/275/487/dom-ufa-revolyucionnaya-ulica-784572719-1.jpg" alt="">
+						<div class="house-card__title">Название</div>
+						<div class="house-card__descr">Описание ываываываываыва</div>
+						<div class="house-card__buttons">
+							<a href="contact.html" class="house-card__link">Записаться</a>
+						</div>
+					</div> -->
+				</div>
+			</div>
+		</div>
+		<div class="form-wrapper">
+			<!-- <form action="https://formspree.io/f/xnqyjwzw" method="POST" id="form" class="form__body"> -->
+			<form action="#" id="form" class="form__body">
+				<h1 class="form__title">Заказать звонок</h1>
+				<div class="form__item">
+					<label for="formName" class="form__label">Email *</label>
+					<input id="formName" type="email" name="name" placeholder="Введите почту" class="form__input _req">
+				</div>
+				<div class="form__item">
+					<label for="formPhone" class="form__label">Телефон*</label>
+					<input id="formPhone" type="tel" name="contact" placeholder="+7(000)000-00-00"  class="form__input">
+				</div>
+				<div class="form__item">
+					<div class="checkbox">
+						<input id="formAgreement" checked type="checkbox" name="agreement" class="checkbox__input">
+						<label for="formAgreement" class="checkbox__label">Даю согласие на обработку персональных
+							данных </label>
+					</div>
+				</div>
+				<button type="submit" class="form__button">Отправить</button>
+			</form>
+		</div>
+	 </div>
+</div>
+	<script type="module" src="js/script.js"></script>
+	<script src="https://unpkg.com/imask"></script>
+	<script src="js/phone.js"></script>
+	<script type="module" src="js/contact.js"></script>
+</body>
+
+</html>

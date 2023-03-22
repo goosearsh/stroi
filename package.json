@@ -1,0 +1,21 @@
+{
+  "name": "stroi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.4.2"
+  },
+  "dependencies": {
+    "firebase": "^9.17.1",
+    "imask": "^6.4.3"
+  }
+}
