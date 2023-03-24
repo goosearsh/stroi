@@ -167,6 +167,9 @@ body{
   top: 0;
 }
 
+.error{
+	color: red;
+}
 .form__button:hover {
   background-color: rgb(109, 40, 164);
 }

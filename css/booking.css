@@ -86,6 +86,9 @@ body{
 .house-card__unlogged{
 	color: red;
 }
+.error{
+	color: red;
+}
 .form-wrapper {
   margin: 0 auto;
   color: #fff;
