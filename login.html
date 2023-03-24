@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/nullstyle.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Вход</title>
+</head>
+<body>
+<div class="inner">
+	<header class="header">
+		<div class="container">
+			<div class="header__body">
+				<a href="/">
+					<img class="header__image" src="img/house.png" alt="Дом">
+				</a>
+				<ul class="header__list">
+					<li class="header__list-item">
+						<a href="/">Главная</a>
+					</li>
+					<li id="login-menu-item" class="header__list-item">
+						<a href="login.html">Вход</a>
+					</li>
+					<li id="logout-menu-item" class="header__list-item">
+						<a href="#">Выйти</a>
+					</li>
+					<li id="register-menu-item" class="header__list-item">
+						<a href="register.html">Регистрация</a>
+					</li>
+					<li id="contact-menu-item" class="header__list-item">
+						<a href="booking.html">Забронировать</a>
+					</li>
+				</ul>
+			</div>
+			</div>
+	 </header>
+		<div class="form-wrapper">
+			<!-- <form action="https://formspree.io/f/xnqyjwzw" method="POST" id="form" class="form__body"> -->
+				<form action="#" id="login-form" class="form__body">
+					<h1 class="form__title">Вход</h1>
+					<div class="form__item">
+						<label for="login-email" class="form__label">Имя *</label>
+						<input id="login-email" type="email" name="email" placeholder="Введите Email" class="form__input _req" required>
+					</div>
+					<div class="form__item">
+						<label for="login-password" class="form__label">Пароль*</label>
+						<input id="login-password" type="password" name="password" placeholder="Введите пароль" class="form__input _req _email" required>
+					</div>
+					<div class="error"></div>
+					<button class="form__button">Войти</button>
+				</form>
+		</div>
+	 </div>
+</div>
+<script type="module" src="js/login.js"></script>
+</body>
+
+</html>
